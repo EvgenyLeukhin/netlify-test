@@ -1,6 +1,6 @@
 'use strict';
 
-import { chat } from './script1.js';
+import a, { chat as Chat } from './script1.js';
 
-console.log(chat);
-console.log(123);
+console.log(a);
+console.log(Chat);
