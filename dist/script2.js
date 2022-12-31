@@ -1,6 +1,8 @@
 'use strict';
 
-import a, { chat as Chat } from './script1.js';
+import { a, b, c, c as copyOfC } from './script1.js';
 
-console.log('default import', a);
-console.log(Chat);
+console.log('a', a);
+console.log('b', b);
+console.log('c', c);
+console.log('copyOfC', copyOfC);
