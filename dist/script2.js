@@ -2,5 +2,5 @@
 
 import a, { chat as Chat } from './script1.js';
 
-console.log(a);
+console.log('default import', a);
 console.log(Chat);
